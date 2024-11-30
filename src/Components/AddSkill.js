@@ -26,7 +26,10 @@ export default function AddSkill({ setSkills }) {
         }}
       >
         <div>
-          <label htmlFor="type" className="block text-gray-600 font-medium mb-1">
+          <label
+            htmlFor="type"
+            className="block text-gray-600 font-medium mb-1"
+          >
             Skill Type
           </label>
           <select
@@ -41,13 +44,18 @@ export default function AddSkill({ setSkills }) {
             </option>
             <option value="Programming Languages">Programming Languages</option>
             <option value="Development Tools">Development Tools</option>
-            <option value="Frameworks and Libraries">Frameworks and Libraries</option>
+            <option value="Frameworks and Libraries">
+              Frameworks and Libraries
+            </option>
             <option value="Databases">Databases</option>
           </select>
         </div>
 
         <div>
-          <label htmlFor="title" className="block text-gray-600 font-medium mb-1">
+          <label
+            htmlFor="title"
+            className="block text-gray-600 font-medium mb-1"
+          >
             Skill Title
           </label>
           <input
